@@ -9,5 +9,11 @@ namespace t_mp.BlazorSyncStorage.Tests
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void TestObTestsLaufenFail()
+        {
+            Assert.Fail();
+        }
     }
 }
