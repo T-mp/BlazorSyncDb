@@ -27,6 +27,8 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build --nologo --configuration Release
     
-    - run: ls
+    - name: Tests with dotnet
+      run: dotnet test --nologo --no-build --configuration Release
+      
