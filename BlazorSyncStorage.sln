@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3365DAB3-2D41-48CC-9A93-C8F538273182}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Beispiele", "Beispiele", "{1E3EB4E6-9D14-443A-9385-4C6CE225482E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t-mp.BlazorSyncStorage", "src\t-mp.BlazorSyncStorage.csproj", "{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {519DE60E-374F-49BA-A234-041D55CDAFEF}
+	EndGlobalSection
+EndGlobal

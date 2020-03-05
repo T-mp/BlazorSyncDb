@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>t_mp.BlazorSyncStorage</RootNamespace>
+    <Version>0.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Privat</Company>
+    <Authors>Thomas-Micheal Petersilie</Authors>
+    <Copyright>Copyright 2018 (c) Thomas-Micheal Petersilie. All rights reserved.</Copyright>
+    <PackageTags>Blazor LocalStorage Components Sync Remote</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>
