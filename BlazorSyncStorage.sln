@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Beispiele", "Beispiele", "{1E3EB4E6-9D14-443A-9385-4C6CE225482E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t-mp.BlazorSyncStorage", "src\t-mp.BlazorSyncStorage.csproj", "{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t-mp.BlazorSyncStorage", "src\t-mp.BlazorSyncStorage\t-mp.BlazorSyncStorage.csproj", "{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t-mp.BlazorSyncStorage.Tests", "src\t-mp.BlazorSyncStorage.Tests\t-mp.BlazorSyncStorage.Tests.csproj", "{C16BE227-DF44-4B06-ADD5-B15D47E7E668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECDBECD0-46EC-4CA8-BDF1-316D89620F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16BE227-DF44-4B06-ADD5-B15D47E7E668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16BE227-DF44-4B06-ADD5-B15D47E7E668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16BE227-DF44-4B06-ADD5-B15D47E7E668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16BE227-DF44-4B06-ADD5-B15D47E7E668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
