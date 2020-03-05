@@ -11,6 +11,7 @@ namespace t_mp.BlazorSyncStorage.Tests
         }
 
         [Test]
+        [Ignore("Ist nur zum Testen der Testumgebung, schlägt immer fehl ;-)")]
         public void TestObTestsLaufenFail()
         {
             Assert.Fail();
