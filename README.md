@@ -10,6 +10,9 @@ Dieses Paket ist, wie Blazor selber, noch in einem experimentellen Stadium und d
 ## Warning
 This library like Blazor itself is experimental and API is likely to change.
 
+## Status
+Master: ![CI](https://github.com/T-mp/BlazorSyncStorage/workflows/CI/badge.svg?branch=master)
+
 ## Dokumentation
 
 ### Installation
